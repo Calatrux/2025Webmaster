@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="eduford_img/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificate & Online Programs for 2021</h1>
+</section>
+
+<!-- blog page content -->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="eduford_img/certificate.jpg">
+            <h2>Our Certificate & Online Programs for 2021</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi amet consequuntur voluptate ipsam quis assumenda nostrum. Sequi autem non corrupti, numquam inventore dicta. Iure saepe ullam quod animi, qui fugiat sed, incidunt nostrum corporis consequatur, pariatur laudantium voluptate delectus impedit. Delectus, deserunt sequi.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laudantium alias quod dolore vel eos minus rem ratione placeat qui ullam labore sequi, voluptatum ut. Iste ipsa iure suscipit maiores? Molestias ipsa sint eveniet ratione non veritatis at expedita, dicta ad cupiditate provident minima tempora consectetur temporibus facere laboriosam minus eius enim deserunt molestiae? Sit hic tenetur et illum facere?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores explicabo perspiciatis possimus laudantium itaque modi deleniti, laborum, doloribus id, ipsa esse earum nobis quam optio iusto fuga corporis aperiam culpa rem obcaecati nihil recusandae maxime. Voluptate aspernatur reiciendis cumque sunt aliquam illo delectus, ea doloremque nisi aperiam dolor alias veniam expedita provident odit non obcaecati? Reprehenderit alias aspernatur rem natus sunt. Doloremque amet reiciendis magnam sit deleniti aperiam delectus voluptas?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta incidunt eius possimus natus obcaecati minima porro culpa quidem voluptatum. Et esse alias nulla minus nisi, voluptates quos architecto consectetur sed!</p>
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, fugiat repellat? Ipsa, eos harum vitae cum, <br> saepe distinctio est dolores doloremque amet ea corrupti.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<!------------- JS Toggle for small media ------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+
+</script>
+
+</body>
+</html>
